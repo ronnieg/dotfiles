@@ -23,3 +23,5 @@ end
 require("astronvim.utils").conditional_func(astronvim.user_opts("polish", nil, false), true)
 vim.o.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme gruvbox]])
+vim.opt.number = true
+vim.opt.relativenumber = false
