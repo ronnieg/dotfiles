@@ -1,7 +1,7 @@
 return {
-  "nvim-lua/plenary.nvim",
   { "LazyVim/LazyVim", version = false },
   { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true},
+  "nvim-lua/plenary.nvim",
   "echasnovski/mini.bufremove",
   { "AstroNvim/astrotheme", opts = { plugins = { ["dashboard-nvim"] = true } } },
   { "max397574/better-escape.nvim", event = "InsertCharPre", opts = { timeout = 300 } },
